@@ -59,10 +59,10 @@
         <div>
 
         </div>
-        <div class="col-0 q-pb-md q-pr-xl">
+        <div class="col-2 q-pb-md q-pr-xl">
           <q-btn color="primary" icon="clear" label="Clear" @click="clearAll()"/>
         </div>
-        <div class="col-0 q-pl-md">
+        <div class="col-2 q-pl-md">
         <q-btn color="primary" icon="drive_file_rename_outline"
         label="Answer" @click="submitAnswer"/>
         </div>
