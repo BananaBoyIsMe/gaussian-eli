@@ -59,7 +59,7 @@
         <div>
 
         </div>
-        <div class="col-1 q-pb-md">
+        <div class="col q-pb-md q-pr-md">
           <q-btn color="primary" icon="clear" label="Clear" @click="clearAll()"/>
         </div>
         <div class="col q-pl-md">
