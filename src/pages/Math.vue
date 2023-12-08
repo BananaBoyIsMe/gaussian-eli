@@ -23,11 +23,11 @@
         </div>
         <div class="row">
           <div class="col-2 q-pb-md" type="number">
-            <q-input dense v-model="ii" label="matrix size: i"/>
+            <q-input dense v-model="ii" label="system size: i"/>
           </div>
           <div class="col-0 text-h6 flex flex-center q-px-md"> × </div>
           <div class="col-2">
-            <q-input dense v-model="jj" label="matrix size: j" type="number"/>
+            <q-input dense v-model="jj" label="system size: j" type="number"/>
           </div>
           <div class="col-2 q-pl-sm">
             <q-btn color="primary" icon="done_outline" label="Set matrix" @click="sendMatrix()"/>
