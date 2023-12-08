@@ -30,7 +30,7 @@
             <q-input dense v-model="jj" label="system size: j" type="number"/>
           </div>
           <div class="col-2 q-pl-sm">
-            <q-btn color="primary" icon="done_outline" label="Set matrix" @click="sendMatrix()"/>
+            <q-btn color="primary" icon="done_outline" label="Set system" @click="sendMatrix()"/>
           </div>
         </div>
     </div>
