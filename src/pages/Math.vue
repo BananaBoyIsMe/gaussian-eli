@@ -387,7 +387,7 @@ export default defineComponent({
           foundOneTwo = false;
 
           for (yy = 1; yy < this.j; yy++){
-            if (this.a[xx-1][yy-1] == 1) {
+            if (this.a[xx-1][yy-1] == 1 && !foundOneTwo) {
               // string += "X" + yy + " = ";
               string2 += "X" + yy + " = " + this.a[xx-1][this.j-1];
               foundOneTwo = true;
