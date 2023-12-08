@@ -342,10 +342,12 @@ export default defineComponent({
           if (foundAns) break;
         }
 
+        let foundagain = false;
         for (xx = this.i - 1; xx > 0; xx--) {
           string = "";
           string2 = "";
           ans = this.a[xx-1][this.j-1];
+          foundagain = false;
           // console.log(ans);
           // this.result.push("X" + xx + " :");
           this.result.push(" -------- ");
@@ -353,8 +355,9 @@ export default defineComponent({
             if (this.a[xx-1][yy-1] != 0) {
               string += this.roundNumber(this.a[xx-1][yy-1]) + " * X" + yy + " + ";
             }
-            if (this.a[xx-1][yy-1] == 1) {
+            if (this.a[xx-1][yy-1] == 1 && !foundagain) {
               string2 += "X" + yy + " = ";
+              foundagain = true;
               // answer[]
             }
           }
