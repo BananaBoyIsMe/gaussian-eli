@@ -19,7 +19,7 @@
 
     <div class="q-pt-xl q-px-xl padding">
         <div class="text-h6">
-          Size of the matrix:
+          Size of the matrix: (Please use 2x3, 3x4, 4x5, and so on...)
         </div>
         <div class="row">
           <div class="col-2 q-pb-md" type="number">
